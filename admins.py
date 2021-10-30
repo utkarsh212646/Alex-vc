@@ -3,15 +3,15 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from TamilVc.config import que
-from TamilVc.function.admins import set
-from TamilVc.helpers.channelmusic import get_chat_id
-from TamilVc.helpers.decorators import authorized_users_only
-from TamilVc.helpers.decorators import errors
-from TamilVc.helpers.filters import command
-from TamilVc.helpers.filters import other_filters
-from TamilVc.services.callsmusic import callsmusic
-from TamilVc.services.queues import queues
+from alexvc.config import que
+from alexvc.function.admins import set
+from alexvc.helpers.channelmusic import get_chat_id
+from alexvc.helpers.decorators import authorized_users_only
+from alexvc.helpers.decorators import errors
+from alexvc.helpers.filters import command
+from alexvc.helpers.filters import other_filters
+from alexvc.services.callsmusic import callsmusic
+from alexvc.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
@@ -95,7 +95,7 @@ async def skip(_, message: Message):
         skip = qeue.pop(0)
     if not qeue:
         return
-    await message.reply_text(f"- 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🤗 **{skip[0]}**\n- 𝐍𝐨𝐰 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🥳 **{qeue[0][0]}**")
+    await message.reply_text(f"- 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 😁 **{skip[0]}**\n- 𝐍𝐨𝐰 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🎵 **{qeue[0][0]}**")
 
 
 @Client.on_message(filters.command("admincache"))
