@@ -18,7 +18,6 @@ Before clicking on deploy to heroku just click on fork and star just below
 
 ## How to deploy 
 
-Click the below button to watch the video tutorial on deploying
 
 [![Tutorial](https://yt-embed.herokuapp.com/embed?v=kc5LnhEvq48)](https://www.youtube.com/watch?v=kc5LnhEvq48)
 
@@ -30,7 +29,7 @@ Click the below button to watch the video tutorial on deploying
 ### Click Below Button to Deploy
 
 
-<a href="https://heroku.com/deploy?template=https://github.com/TamilBots/TamilVCMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
+<a href="https://heroku.com/deploy?template=https://github.com/utkarsh212646/Alex-vc"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
 
 ###  GET STRING SESSION FROM REPL RUN
 
