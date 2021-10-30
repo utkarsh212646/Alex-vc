@@ -21,26 +21,26 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from TamilVc.config import ARQ_API_KEY
-from TamilVc.config import BOT_NAME as bn
-from TamilVc.config import DURATION_LIMIT
-from TamilVc.config import UPDATES_CHANNEL as updateschannel
-from TamilVc.config import UPDATES_CHANNEL, ASSISTANT_NAME
-from TamilVc.config import que
-from TamilVc.function.admins import admins as a
-from TamilVc.helpers.admins import get_administrators
-from TamilVc.helpers.channelmusic import get_chat_id
-from TamilVc.helpers.errors import DurationLimitError
-from TamilVc.helpers.decorators import errors
-from TamilVc.helpers.decorators import authorized_users_only
-from TamilVc.helpers.filters import command
-from TamilVc.helpers.filters import other_filters
-from TamilVc.helpers.gets import get_file_name
-from TamilVc.services.callsmusic import callsmusic
-from TamilVc.services.callsmusic import client as USER
-from TamilVc.services.converter.converter import convert
-from TamilVc.services.downloaders import youtube
-from TamilVc.services.queues import queues
+from alexvc.config import ARQ_API_KEY
+from alexvc.config import BOT_NAME as bn
+from alexVc.config import DURATION_LIMIT
+from alexVc.config import UPDATES_CHANNEL as updateschannel
+from alexVc.config import UPDATES_CHANNEL, ASSISTANT_NAME
+from alexVc.config import que
+from alexVc.function.admins import admins as a
+from alexVc.helpers.admins import get_administrators
+from alexVc.helpers.channelmusic import get_chat_id
+from alexVc.helpers.errors import DurationLimitError
+from alexVc.helpers.decorators import errors
+from alexVc.helpers.decorators import authorized_users_only
+from alexVc.helpers.filters import command
+from alexVc.helpers.filters import other_filters
+from alexVc.helpers.gets import get_file_name
+from alexVc.services.callsmusic import callsmusic
+from alexVc.services.callsmusic import client as USER
+from alexvc.services.converter.converter import convert
+from alexvc.services.downloaders import youtube
+from alexvc.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
@@ -105,8 +105,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
-    Image.alpha_composite(image5, image6).save("temp.png")
-    img = Image.open("temp.png")
+    Image.alpha_composite(image5, 
     draw = ImageDraw.Draw(img)
     font = ImageFont.truetype("etc/font.otf", 32)
     draw.text((205, 550), f"Title: {title}", (51, 215, 255), font=font)
@@ -442,7 +441,7 @@ async def play(_, message: Message):
     global useer
     if message.chat.id in DISABLED_GROUPS:
         return    
-    lel = await message.reply("📡 <b>Processing</b> Your Request! 📡")
+    lel = await message.reply("⚡ <b>Processing</b> Your Request! ❤️")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -497,7 +496,7 @@ async def play(_, message: Message):
         )
         return
     text_links=None
-    await lel.edit("📡 <b>Finding</b> Your Request! 📡")
+    await lel.edit("🎉 <b>Finding</b> Your Request! 🔥")
     if message.reply_to_message:
         if message.reply_to_message.audio:
             pass
@@ -541,7 +540,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/51a2ff0b865e0d540889b.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -554,7 +553,7 @@ async def play(_, message: Message):
         )
     elif urls:
         query = toxt
-        await lel.edit("📡 <b>Processing</b> Your Song! 📡")
+        await lel.edit("⚡ <b>Processing</b> Your Song! ❤️")
         ydl_opts = {"format": "bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -590,10 +589,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube ⚡ ", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/TamilSupport")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -679,10 +678,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube ⚡", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/Alex_userbot_Support")],
             ]
             )
             requested_by = message.from_user.first_name
@@ -734,7 +733,7 @@ async def ytplay(_, message: Message):
     global que
     if message.chat.id in DISABLED_GROUPS:
         return
-    lel = await message.reply("📡 <b>Processing</b> Your Request! 📡")
+    lel = await message.reply(🔥<b>Processing</b> Your Request! ❤️")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -788,7 +787,7 @@ async def ytplay(_, message: Message):
             f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually</i>"
         )
         return
-    await lel.edit("📡 <b>Finding</b> Your Request! 📡")
+    await lel.edit("🎉 <b>Finding</b> Your Request! ❤️")
     user_id = message.from_user.id
     user_name = message.from_user.first_name
      
@@ -797,7 +796,7 @@ async def ytplay(_, message: Message):
     for i in message.command[1:]:
         query += " " + str(i)
     print(query)
-    await lel.edit("📡 <b>Processing</b> Your Song! 📡")
+    await lel.edit("🔥 <b>Processing</b> Your Song! ⚡")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -833,10 +832,10 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),      
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube ⚡", url=f"{url}"),      
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/alex_userbot_Support")],
             ]
     )
     requested_by = message.from_user.first_name
@@ -893,7 +892,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "TamilVc"
+        user.first_name = "Alex vc"
     usar = user
     wew = usar.id
     try:
@@ -956,7 +955,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumbnail = "https://telegra.ph/file/51a2ff0b865e0d540889b.jpg"
 
     except:
         await res.edit("Found Literally Nothing, You Should Work On Your English!")
@@ -972,10 +971,10 @@ async def deezer(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube ⚡", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/Alex_userbot_Support")],
             ]
     )
     file_path = await convert(wget.download(url))
@@ -1107,10 +1106,10 @@ async def jiosaavn(client: Client, message_: Message):
     keyboard = InlineKeyboardMarkup(
         [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube ⚡", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/alex_userbot_support")],
             ]
     )
     file_path = await convert(wget.download(slink))
@@ -1211,10 +1210,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
         [
                 [
-                    InlineKeyboardButton("𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 🎶", callback_data="playlist"),
-                    InlineKeyboardButton(text=" 𝗬𝗼𝘂𝗧𝘂𝗯𝗲 🏋🏻", url=f"{url}"),
+                    InlineKeyboardButton("Playlist 🎶", callback_data="playlist"),
+                    InlineKeyboardButton(text=" YouTube⚡", url=f"{url}"),
                 ],
-                [InlineKeyboardButton(text="👀 𝗧𝗮𝗺𝗶𝗹 𝗕𝗼𝘁𝘀 👀", url=f"https://t.me/TamilSupport")],
+                [InlineKeyboardButton(text="👀 ALEX BOTS 👀", url=f"https://t.me/Alex_userbot_Support")],
             ]
     )
     requested_by = useer_name
