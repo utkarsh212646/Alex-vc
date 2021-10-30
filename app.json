@@ -15,7 +15,7 @@
   ],        
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string Get From TELEGRAM :@alexstringbot",
+      "description": "Pyrogram session string Get From TELEGRAM :@alexstringgenbot",
       "required": true
     },
     "BOT_TOKEN": {
