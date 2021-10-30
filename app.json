@@ -1,9 +1,9 @@
 {
-  "name": "TamilVcMusic",
+  "name": "ALEX VC",
   "logo": "https://telegra.ph/file/a948caa899055d6109fad.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TamilBots/TamilVcMusic",
+  "repository": "https://github.com/utkarsh212646/Alex-vc",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -15,7 +15,7 @@
   ],        
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string Get From : https://replit.com/@TamilBots/TAMILVCBOT#main.py",
+      "description": "Pyrogram session string Get From TELEGRAM :@alexstringbot",
       "required": true
     },
     "BOT_TOKEN": {
@@ -34,12 +34,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "TamilSupport"
+      "value": "alex_userbot_support"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "TamilVc V 0.0.1"
+      "value": "AlexVc V 0.0.1"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -51,14 +51,14 @@
       "value": ""
     },    
     "BG_IMAGE": {
-      "description": "BG image of bot (Use transparent one) [IGNORE].",
+      "description": "BG image of bot (LEAVE IF YOU DONT HAVE YOURS) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph//file/bfabfba9e552b67b04ebb.png"
+      "value": "https://telegra.ph/file/add6d0f73482231d9dbe8.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "TamilBots"
+      "value": "@alex_userbot"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
