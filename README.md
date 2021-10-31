@@ -1,5 +1,5 @@
 # ALEX VC
- ![photo_2021-10-03_02-53-22](https://user-images.githubusercontent.com/https://telegra.ph/file/9524570c83fc76cfff092.jpg)
+ ![photo_2021-10-03_02-53-22](https://telegra.ph/file/9524570c83fc76cfff092.jpg)
 
 
 [SUPPORT US](https://github.com/utkarsh212646/Alex-vc/stargazers)
