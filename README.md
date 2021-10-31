@@ -3,8 +3,7 @@
 [SUPPORT US](https://github.com/utkarsh212646/Alex-vc/stargazers)
 
 ### Deploy To Heroku 📡</h4>
-
-### Click Below Button to Deploy
+[CLICK HERE](https://heroku.com/deploy?template=https://github.com/utkarsh212646/Alex-vc)
 
 
 <a href="https://heroku.com/deploy?template=https://github.com/utkarsh212646/Alex-vc"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
@@ -77,8 +76,8 @@ If you donlt like to play in linked channel:
 </details>
 
 
-[SUPPORT GROUP](https/t.me/alex_userbot_support
-[UPDATES](https/t.me/Alex_userbot
+[SUPPORT GROUP](https/t.me/alex_userbot_support)
+[UPDATES](https/t.me/Alex_userbot)
 
 
 ## Made with ❤️ By alexBots
