@@ -1,29 +1,16 @@
-# TamilVcMusic
+# ALRX VC
 
-<h1 align="centre">🌟TamilVCMusicBot🌟</h1>
+<h1 align="centre">🌟Alexvc🌟</h1>
 
 ## Give your 💙
 
-Before clicking on deploy to heroku just click on fork and star just below
 
-<p align="center">
-  <a href="https://github.com/TamilBots/TamilVCMusic/fork">
-    <img src="https://img.shields.io/github/forks/TamilBots/TamilVCMusic?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/TamilBots/TamilVCMusic">
-    <img src="https://img.shields.io/github/stars/TamilBots/TamilVCMusic?style=social">
+  <a href="https://github.com/utkarsh212646/Alexvc">
+    <img src="https://img.shields.io/github/stars/utkarsh212646/Alexvc?style=social">
   </a>
 </p>
-
-## How to deploy 
-
-
-[![Tutorial](https://yt-embed.herokuapp.com/embed?v=kc5LnhEvq48)](https://www.youtube.com/watch?v=kc5LnhEvq48)
-
-<a href="https://youtu.be/kc5LnhEvq48"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-<a href="https://youtu.be/kc5LnhEvq48"><img src="https://img.shields.io/youtube/views/kc5LnhEvq48?style=social">
-
 ### Deploy To Heroku 📡</h4>
 
 ### Click Below Button to Deploy
@@ -31,74 +18,11 @@ Before clicking on deploy to heroku just click on fork and star just below
 
 <a href="https://heroku.com/deploy?template=https://github.com/utkarsh212646/Alex-vc"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
 
-###  GET STRING SESSION FROM REPL RUN
-
- [![Run on Repl.it](https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973)](https://replit.com/@TamilBots/generate-pyrogram-session-string#main.py)
-
-### குழுக்கள் மற்றும் ஆதரவு:
-
-[![](https://camo.githubusercontent.com/e531cdc1dbdcb78f8ffe767875a6b6d33c43e2e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d2532304368616e6e656c2d7265642e7376673f6c6f676f3d54656c656772616d)](https://t.me/TamilBots)
-
-[![](https://camo.githubusercontent.com/7b0a8bb8af0b2466dd1c38a6c1367ddee45ba266/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2d54656c656772616d25323047726f75702d626c75652e7376673f6c6f676f3d74656c656772616d)](https://t.me/TamilSupport)
+###  GET STRING SESSION
 
 
-### More 👨🏻‍💻
-<details>
-<summary>Deploy to VPS 🏃</summary>
-<br>
 
-### Deploy to VPS 🏃
-```sh
-# Install Git First (apt-instll git)
-$ git clone https://github.com/TamilBots/TamilVcMusic
-$ cd TamilBots
-# Upgrade sources
-# Install All Requirements 
-$ pip(3) install -r requirements.txt
-# Rename example.env to local.env and fill
-$ npm i -g npm
-# Start Bot 
-$ python3 -m TamilBots
-```
 
-</details>
-
-<details>
-<summary>🤩 Features 🥳</summary>
-<br>
-
-### Features ✅
-
-- Thumbnail Support
-- Playlist Support
-- Current playback support
-- Showing track names when skipping
-- Zero downtime, Fully Stable
-- DEEZER,YOUTUBE & SAAVN PLAYBACK SUPPORTED
-- Settings panel
-- Control with buttons
-- Userbot auto join
-- Channel Music Play
-- Keyboard selection support for YouTube play
-
-</details>
-
-<details>
-<summary>Requirements 📝</summary>
-<br>
-
-### Requirements 📝
-
-- FFmpeg
-- NodeJS [nodesource.com](https://nodesource.com/)
-- Python 3.7+
-- [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
-
-</details>
-
-<details>
-<summary>👨🏻‍💻Commands👨🏻‍💻</summary>
-<br>
 
 ### Commands for Group 👥
 #### For all in group
@@ -162,10 +86,4 @@ If you donlt like to play in linked channel:
 
 </details>
 
-## Made with ❤️ By @TamilBots
-
-### Credits
-#### Special Credits
-- [Zaute-Km](https://github.com/Zaute-Km): LushaiMusic Developer
-- [Rojserbest](http://github.com/rojserbest): Callsmusic Developer
-And [Call Music](https://github.com/CallsMusic/CallsMusic) ❤
+## Made with ❤️ By [alexBots](https/t.me/alex_userbot
