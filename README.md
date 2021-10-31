@@ -1,8 +1,7 @@
-# ALRX VC
+# ALEX VC
 
 <h1 align="centre">🌟Alexvc🌟</h1>
 
-## Give your 💙
 
 
     
@@ -86,4 +85,4 @@ If you donlt like to play in linked channel:
 
 </details>
 
-## Made with ❤️ By [alexBots](https/t.me/alex_userbot
+## Made with ❤️ By alexBots
