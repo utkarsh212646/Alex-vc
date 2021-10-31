@@ -1,6 +1,6 @@
 # ALEX VC
  
-[SUPPORT US](https://github.com/utkarsh212646/Alex-vc)
+[SUPPORT US](https://github.com/utkarsh212646/Alex-vc/stargazers)
 
 ### Deploy To Heroku 📡</h4>
 
