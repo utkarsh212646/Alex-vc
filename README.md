@@ -2,12 +2,6 @@
  
 [SUPPORT US](https://github.com/utkarsh212646/Alex-vc)
 
-    
-  </a>
-  <a href="https://github.com/utkarsh212646/Alexvc">
-    <img src="https://img.shields.io/github/stars/utkarsh212646/Alexvc?style=social">
-  </a>
-</p>
 ### Deploy To Heroku 📡</h4>
 
 ### Click Below Button to Deploy
@@ -16,7 +10,6 @@
 <a href="https://heroku.com/deploy?template=https://github.com/utkarsh212646/Alex-vc"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a>
 
 ###  GET STRING SESSION
-
 
 
 
@@ -67,7 +60,7 @@
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add [@TamiliniBot](https://t.me/TamiliniBot) as Channel admin with full perms
+ 3. Add [@alex_music_assistant](https://t.me/alex_music_assistant) as Channel admin with full permission
  4. add helper to channel
  5. Simply send commands in your group.
 
@@ -82,5 +75,10 @@ If you donlt like to play in linked channel:
 + Sudo Users can execute any command in any groups
 
 </details>
+
+
+[SUPPORT GROUP](https/t.me/alex_userbot_support
+[UPDATES](https/t.me/Alex_userbot
+
 
 ## Made with ❤️ By alexBots
