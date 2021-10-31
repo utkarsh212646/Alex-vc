@@ -1,8 +1,6 @@
 # ALEX VC
-
-<h1 align="centre">🌟Alexvc🌟</h1>
-
-https://github.com/utkarsh212646/Alex-vc
+ 
+[SUPPORT US](https://github.com/utkarsh212646/Alex-vc)
 
     
   </a>
